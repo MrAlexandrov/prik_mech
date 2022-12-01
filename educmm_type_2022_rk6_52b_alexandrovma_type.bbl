@@ -1,0 +1,55 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\language\csname l@#1\endcsname\fi}
+\ifx\undefined\url\def\url#1{{\small #1}}\else\fi
+\ifx\undefined\BibUrl\def\BibUrl#1{\url{#1}}\else\fi
+\ifx\undefined\BibAnnote\long\def\BibAnnote#1{(#1)}\else\fi
+\ifx\undefined\BibEmph\def\BibEmph#1{\emph{#1}}\else\fi
+
+\bibitem{Pershin2018CompMath}
+\selectlanguageifdefined{russian}
+{Першин А.Ю.} Лекции по курсу
+  <<Вычислительная математика>>.
+\newblock {Москва}, 2018-2021.
+\newblock {С.}~140. URL:  \BibUrl{
+  https://archrk6.bmstu.ru/index.php/f/810046}.{}
+
+\bibitem{SokolovPershin2021ManLab}
+\selectlanguageifdefined{russian}
+{Соколов, А.П.} Инструкция по выполнению
+  лабораторных работ (общая).
+\newblock {Москва}: Соколов, А.П., 2018-2021.
+\newblock {С.}~9. URL:  \BibUrl{ https://archrk6.bmstu.ru}.
+  \BibAnnote{облачный сервис кафедры РК6}.{}
+
+\bibitem{Sokolov2021ManSem}
+\selectlanguageifdefined{russian}
+{Соколов, А.П.} Инструкция по выполнению
+  заданий к семинарским занятиям (общая).
+\newblock {Москва}: Соколов, А.П., 2018-2022.
+\newblock {С.}~7. URL:  \BibUrl{ https://archrk6.bmstu.ru}.
+  \BibAnnote{облачный сервис кафедры РК6}.{}
+
+\bibitem{Pershin2021CompMathTasks}
+\selectlanguageifdefined{russian}
+{Першин А.Ю.} {Сборник задач семинарских
+  занятий по курсу <<Вычислительная
+  математика>>: Учебное пособие. / Под
+  редакцией Соколова А.П. [Электронный
+  ресурс]}.
+\newblock {Москва}, 2018-2021.
+\newblock {С.}~20. URL:  \BibUrl{ https://archrk6.bmstu.ru}.
+  \BibAnnote{облачный сервис кафедры РК6}.{}
+
+\bibitem{PershinSokolov2021CompMathLabs}
+\selectlanguageifdefined{russian}
+{Першин~А.Ю., Соколов~А.П.} {Сборник
+  постановок задач на лабораторные работы
+  по курсу <<Вычислительная математика>>:
+  Учебное пособие. [Электронный ресурс]}.
+\newblock {Москва}, 2021.
+\newblock {С.}~54. URL:  \BibUrl{ https://archrk6.bmstu.ru}.
+  \BibAnnote{облачный сервис кафедры РК6}.{}
+
+\end{thebibliography}
